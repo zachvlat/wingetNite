@@ -1,11 +1,14 @@
 import * as React from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import { Divider, Text } from 'react-native-paper';
 import BrowserList from './BrowserList';
 import DevList from './DevList';
+import Productivity from './Productivity';
+import Gaming from './Gaming';
+import Social from './Social';
 
 const MyDivider = () => (
-  <View>
+  <ScrollView>
     <Text>Browsers</Text>
     <BrowserList></BrowserList>
     <Divider />
@@ -13,19 +16,14 @@ const MyDivider = () => (
     <DevList></DevList>
     <Divider />
     <Text>Productivity</Text>
-    <BrowserList></BrowserList>
-    <Divider />
-    <Text>Video/Audio</Text>
-    <BrowserList></BrowserList>
-    <Divider />
-    <Text>Social</Text>
-    <BrowserList></BrowserList>
-    <Divider />
-    <Text>Networking</Text>
+    <Productivity></Productivity>
     <Divider />
     <Text>Gaming</Text>
+    <Gaming></Gaming>
     <Divider />
-  </View>
+    <Text>Social</Text>
+    <Social></Social>
+  </ScrollView>
 );
 
 export default MyDivider;
