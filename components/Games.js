@@ -2,10 +2,10 @@ import * as React from 'react';
 import { Text } from 'react-native';
 import Appcard from './Appcard';
 
-export default function Productivity() {
+export default function Games() {
     return (
         <Text>
-            <Appcard icon="note" title="Notepad++" subtitle="The best text-editor"></Appcard>
+            <Appcard icon="steam" title="Steam" subtitle="The best game library"></Appcard>
         </Text>
     );
 }
