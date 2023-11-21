@@ -5,10 +5,10 @@ import Appcard from './Appcard';
 export default function Socials() {
     return (
         <Text>
-            <Appcard icon="chat" title="Signal" subtitle="The best messenger"></Appcard>
-            <Appcard icon="telegram" title="Telegram" subtitle="The best messenger"></Appcard>
-            <Appcard icon="element" title="Element" subtitle="The best group chat"></Appcard>
-            <Appcard icon="mail" title="K-9 Mail" subtitle="The best mail client"></Appcard>
+            <Appcard icon="chat" title="Signal" subtitle="The best messenger" command="scoop install signal"></Appcard>
+            <Appcard icon="chat" title="Telegram" subtitle="The best messenger" command="scoop install telegram"></Appcard>
+            <Appcard icon="chat" title="Element" subtitle="The best group chat" command="scoop install element"></Appcard>
+            <Appcard icon="mail" title="Thunderbird" subtitle="The best mail client" command="scoop install thunderbird"></Appcard>
         </Text>
     );
 }
