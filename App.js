@@ -10,7 +10,7 @@ export default function App() {
     <SafeAreaProvider>
       <PaperProvider>
         <Appbar.Header>
-          <Appbar.Content title="ScoopNite" />
+          <Appbar.Content title="WingetNite" />
         </Appbar.Header>
         <MainTabs></MainTabs>
         <Fab></Fab>

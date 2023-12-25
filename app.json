@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ScoopNite",
-    "slug": "ScoopNite",
+    "name": "WingetNite",
+    "slug": "wingetnite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,7 +22,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.zatsando.scoopnite"
+      "package": "com.zatsando.wingetnite"
     },
     "web": {
       "favicon": "./assets/favicon.png"

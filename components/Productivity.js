@@ -5,7 +5,7 @@ import Appcard from './Appcard';
 export default function Productivity() {
     return (
         <Text>
-            <Appcard icon="note" title="Notepad++" subtitle="The best text-editor" command="scoop install notepadplusplus"></Appcard>
+            <Appcard icon="note" title="Notepad++" subtitle="The best text-editor" command="winget install notepadplusplus"></Appcard>
         </Text >
     );
 }
