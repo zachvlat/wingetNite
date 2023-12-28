@@ -28,11 +28,11 @@
       "package": "com.zatsando.wingetnite"
     },
     "web": {
-      "favicon": "./assets/web/web/favicon.ico"
+      "favicon": ""
     },
     "extra": {
       "eas": {
-        "projectId": "28acad2c-0d55-4c56-a429-6a90865775bf"
+        "projectId": "27887c26-6d37-4b65-99d5-24c500f1821f"
       }
     }
   }
