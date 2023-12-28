@@ -1,37 +1,23 @@
 import * as React from 'react';
 import { BottomNavigation } from 'react-native-paper';
-import Socials from './Socials';
-import Browsers from './Browsers';
-import Audiovideo from './Audiovideo';
-import Productivity from './Productivity';
-import Games from './Games';
+import Wingetapps from './Wingetapps';
+import Mylist from './Mylist';
 
-const BrowsersRoute = () => <Browsers></Browsers>;
+const WingetappsRoute = () => <Wingetapps></Wingetapps>;
 
-const AudiovideoRoute = () => <Audiovideo></Audiovideo>;
+const MylistRoute = () => <Mylist></Mylist>;
 
-const ProductivityRoute = () => <Productivity></Productivity>;
-
-const SocialsRoute = () => <Socials></Socials>;
-
-const GameRoute = () => <Games></Games>;
 
 const Footer = () => {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
-        { key: 'browsers', title: 'Browsers', focusedIcon: 'firefox', unfocusedIcon: 'firefox' },
-        { key: 'audiovideo', title: 'Audio/Video', focusedIcon: 'album' },
-        { key: 'productivity', title: 'Productivity', focusedIcon: 'tools' },
-        { key: 'socials', title: 'Socials', focusedIcon: 'instagram', unfocusedIcon: 'instagram' },
-        { key: 'games', title: 'Games', focusedIcon: 'gamepad', unfocusedIcon: 'gamepad' },
+        { key: 'Wingetapps', title: 'Winget Apps', focusedIcon: 'apps', unfocusedIcon: 'apps' },
+        { key: 'Mylist', title: 'My list', focusedIcon: 'format-list-bulleted', unfocusedIcon: 'format-list-bulleted' },
     ]);
 
     const renderScene = BottomNavigation.SceneMap({
-        browsers: BrowsersRoute,
-        audiovideo: AudiovideoRoute,
-        productivity: ProductivityRoute,
-        socials: SocialsRoute,
-        games: GameRoute,
+        Wingetapps: WingetappsRoute,
+        Mylist: MylistRoute,
     });
 
     return (

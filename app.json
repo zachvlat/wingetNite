@@ -2,12 +2,12 @@
   "expo": {
     "name": "WingetNite",
     "slug": "wingetnite",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/android/android/play_store_512.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": ".assets/android/android/play_store_512.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,14 +18,17 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/android/android/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+        "backgroundImage": "./assets/android/android/res/mipmap-xxxhdpi/ic_launcher_background.png",
+        "monochromeImage": "./assets/android/android/res/mipmap-xxxhdpi/ic_launcher_monochrome.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.zatsando.wingetnite"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/web/web/favicon.ico"
     },
     "extra": {
       "eas": {
