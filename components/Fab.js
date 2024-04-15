@@ -7,18 +7,14 @@ const Fab = () => {
   const [logCount, setLogCount] = React.useState(0);
 
   React.useEffect(() => {
-    // Update the log count whenever the logs list changes
     setLogCount(getLogs().length);
   }, [getLogs()]);
 
   const handleFabPress = async () => {
-    // Concatenate the list items with " && " between them
     const logsString = getLogs().join(' && ');
 
-    // Log the resulting string
     console.log(logsString);
 
-    // Share the string using the Share API
     try {
       await Share.share({
         message: logsString,

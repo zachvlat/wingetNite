@@ -1,99 +1,114 @@
 [
-    {
+  {
       "icon": "firefox",
       "title": "Firefox",
       "subtitle": "The best browser",
-      "command": "winget install --id=Mozilla.Firefox -e"
-    },
-    {
+      "command": "winget install --id=Mozilla.Firefox -e",
+      "flatpakcommand": "flatpak install flathub org.mozilla.firefox"
+  },
+  {
       "icon": "google-chrome",
       "title": "ungoogled-chromium",
       "subtitle": "The 2nd best browser",
-      "command": "winget install -e --id eloston.ungoogled-chromium"
-    },
-    {
+      "command": "winget install -e --id eloston.ungoogled-chromium",
+      "flatpakcommand": "flatpak install flathub com.github.Eloston.UngoogledChromium"
+  },
+  {
       "icon": "vlc",
       "title": "VLC",
       "subtitle": "VLC is a free and open source cross-platform multimedia player",
-      "command": "winget install --id=VideoLAN.VLC -e"
-    },
-    {
+      "command": "winget install --id=VideoLAN.VLC -e",
+      "flatpakcommand": "flatpak install flathub org.videolan.VLC"
+  },
+  {
       "icon": "spotify",
       "title": "Spotube",
       "subtitle": "The best Spotify alternative",
-      "command": "winget install -e --id KRTirtho.Spotube"
-    },
-    {
+      "command": "winget install -e --id KRTirtho.Spotube",
+      "flatpakcommand": "flatpak install flathub com.spotify.Client"
+  },
+  {
       "icon": "steam",
       "title": "Steam",
       "subtitle": "The best game library",
-      "command": "winget install --id=Valve.Steam -e"
-    },
-    {
+      "command": "winget install --id=Valve.Steam -e",
+      "flatpakcommand": "flatpak install flathub com.valvesoftware.Steam"
+  },
+  {
       "icon": "note",
       "title": "Notepad++",
       "subtitle": "The best text-editor",
-      "command": "winget install --id=Notepad++.Notepad++ -e"
-    },
-    {
+      "command": "winget install --id=Notepad++.Notepad++ -e",
+      "flatpakcommand": "Not available in Flatpak"
+  },
+  {
       "icon": "chat-processing",
       "title": "Signal",
       "subtitle": "The best messenger",
-      "command": "winget install --id=OpenWhisperSystems.Signal -e"
-    },
-    {
+      "command": "winget install --id=OpenWhisperSystems.Signal -e",
+      "flatpakcommand": "flatpak install flathub org.signal.Signal"
+  },
+  {
       "icon": "send-circle",
       "title": "Telegram",
       "subtitle": "The best messenger",
-      "command": "winget install --id=Telegram.TelegramDesktop -e"
-    },
-    {
+      "command": "winget install --id=Telegram.TelegramDesktop -e",
+      "flatpakcommand": "flatpak install flathub org.telegram.desktop"
+  },
+  {
       "icon": "vector-circle",
       "title": "Element",
       "subtitle": "The best group chat",
-      "command": "winget install -e --id Element.Element"
-    },
-    {
+      "command": "winget install -e --id Element.Element",
+      "flatpakcommand": "flatpak install flathub im.riot.Riot"
+  },
+  {
       "icon": "mail",
       "title": "Thunderbird",
       "subtitle": "The best mail client",
-      "command": "winget install -e --id Mozilla.Thunderbird"
-    },
-    {
+      "command": "winget install -e --id Mozilla.Thunderbird",
+      "flatpakcommand": "flatpak install flathub org.mozilla.thunderbird"
+  },
+  {
       "icon": "keyboard",
       "title": "Playnite",
-      "subtitle":"An open source video game library manager and launcher",
-      "command": "winget install -e --id Playnite.Playnite"
-    },
-    {
-      "icon":"fire",
-      "title":"Flameshot",
-      "subtitle":"Powerful yet simple to use screenshot software.",
-      "command":"winget install -e --id Flameshot.Flameshot"
-    },
-    {
-      "icon":"sword",
-      "title":"Heroic Games Launcher",
-      "subtitle":"Heroic is an Open Source Game Launcher.",
-      "command":"winget install -e --id HeroicGamesLauncher.HeroicGamesLauncher"
-    },
-    {
-      "icon":"download-circle",
-      "title":"qBittorrent",
-      "subtitle":"qBittorrent is a bittorrent client.",
-      "command":"winget install -e --id qBittorrent.qBittorrent"
-    },
-    {
-      "icon":"microsoft-visual-studio-code",
-      "title":"Visual Studio Code",
-      "subtitle":"Visual Studio Code is a code editor.",
-      "command":"winget install -e --id Microsoft.VisualStudioCode"
-    },
-    {
-      "icon":"monitor-cellphone",
-      "title":"KDE Connect",
-      "subtitle":"Enabling communication between all your devices.",
-      "command":"winget install -e --id KDE.KDEConnect"
-    }
-  ]
-  
+      "subtitle": "An open source video game library manager and launcher",
+      "command": "winget install -e --id Playnite.Playnite",
+      "flatpakcommand": "Not available in Flatpak"
+  },
+  {
+      "icon": "fire",
+      "title": "Flameshot",
+      "subtitle": "Powerful yet simple to use screenshot software.",
+      "command": "winget install -e --id Flameshot.Flameshot",
+      "flatpakcommand": "flatpak install flathub org.flameshot.Flameshot"
+  },
+  {
+      "icon": "sword",
+      "title": "Heroic Games Launcher",
+      "subtitle": "Heroic is an Open Source Game Launcher.",
+      "command": "winget install -e --id HeroicGamesLauncher.HeroicGamesLauncher",
+      "flatpakcommand": "Not available in Flatpak"
+  },
+  {
+      "icon": "download-circle",
+      "title": "qBittorrent",
+      "subtitle": "qBittorrent is a bittorrent client.",
+      "command": "winget install -e --id qBittorrent.qBittorrent",
+      "flatpakcommand": "flatpak install flathub org.qbittorrent.qBittorrent"
+  },
+  {
+      "icon": "microsoft-visual-studio-code",
+      "title": "Visual Studio Code",
+      "subtitle": "Visual Studio Code is a code editor.",
+      "command": "winget install -e --id Microsoft.VisualStudioCode",
+      "flatpakcommand": "flatpak install flathub com.visualstudio.code"
+  },
+  {
+      "icon": "monitor-cellphone",
+      "title": "KDE Connect",
+      "subtitle": "Enabling communication between all your devices.",
+      "command": "winget install -e --id KDE.KDEConnect",
+      "flatpakcommand": "flatpak install flathub com.github.bajoja.indicator-kdeconnect"
+  }
+]

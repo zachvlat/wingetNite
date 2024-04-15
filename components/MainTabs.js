@@ -1,23 +1,23 @@
 import * as React from 'react';
 import { BottomNavigation } from 'react-native-paper';
 import Wingetapps from './Wingetapps';
-import Mylist from './Mylist';
+import Flatpakapps from './Flatpakapps';
 
 const WingetappsRoute = () => <Wingetapps></Wingetapps>;
 
-const MylistRoute = () => <Mylist></Mylist>;
+const FlatpakappsRoute = () => <Flatpakapps></Flatpakapps>;
 
 
 const Footer = () => {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
         { key: 'Wingetapps', title: 'Winget Apps', focusedIcon: 'apps', unfocusedIcon: 'apps' },
-        { key: 'Mylist', title: 'My list', focusedIcon: 'format-list-bulleted', unfocusedIcon: 'format-list-bulleted' },
+        { key: 'Flatpakapps', title: 'Flatpak Apps', focusedIcon: 'format-list-bulleted', unfocusedIcon: 'format-list-bulleted' },
     ]);
 
     const renderScene = BottomNavigation.SceneMap({
         Wingetapps: WingetappsRoute,
-        Mylist: MylistRoute,
+        Flatpakapps: FlatpakappsRoute,
     });
 
     return (
