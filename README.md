@@ -1,7 +1,7 @@
 WingetNite
 Introduction
 
-WingetNite is a mobile application developed by Zach Vlat. It leverages the Windows Package Manager (winget) to simplify the installation and management of software packages on Windows systems. The app provides a user-friendly interface for interacting with winget commands, making it easier for users to discover, install, and manage software.
+WingetNite is a mobile application that leverages the Windows Package Manager (winget) and Flathub to simplify the installation and management of software packages on Windows and Linux systems.
 Features
 
     Intuitive UI: WingetNite offers a clean and user-friendly interface to enhance the user experience.
