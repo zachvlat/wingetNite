@@ -110,5 +110,12 @@
       "subtitle": "Enabling communication between all your devices.",
       "command": "winget install -e --id KDE.KDEConnect",
       "flatpakcommand": "flatpak install flathub com.github.bajoja.indicator-kdeconnect"
+  },
+    {
+      "icon": "microsoft-office",
+      "title": "LibreOffice",
+      "subtitle": "LibreOffice is a powerful office suite.",
+      "command": "winget install -e --id TheDocumentFoundation.LibreOffice",
+      "flatpakcommand": "flatpak install flathub org.libreoffice.LibreOffice"
   }
 ]
