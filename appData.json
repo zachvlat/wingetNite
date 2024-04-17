@@ -13,6 +13,13 @@
       "command": "winget install -e --id eloston.ungoogled-chromium",
       "flatpakcommand": "flatpak install flathub com.github.Eloston.UngoogledChromium"
   },
+    {
+      "icon": "cat",
+      "title": "Brave",
+      "subtitle": "The web browser from Brave",
+      "command": "winget install -e --id Brave.Brave",
+      "flatpakcommand": "flatpak install flathub com.brave.Browser"
+  },
   {
       "icon": "vlc",
       "title": "VLC",
@@ -39,7 +46,7 @@
       "title": "Notepad++",
       "subtitle": "The best text-editor",
       "command": "winget install --id=Notepad++.Notepad++ -e",
-      "flatpakcommand": "Not available in Flatpak"
+      "flatpakcommand": ""
   },
   {
       "icon": "chat-processing",
@@ -51,7 +58,7 @@
   {
       "icon": "send-circle",
       "title": "Telegram",
-      "subtitle": "The best messenger",
+      "subtitle": "Fast. Secure. Powerful.",
       "command": "winget install --id=Telegram.TelegramDesktop -e",
       "flatpakcommand": "flatpak install flathub org.telegram.desktop"
   },
@@ -65,7 +72,7 @@
   {
       "icon": "mail",
       "title": "Thunderbird",
-      "subtitle": "The best mail client",
+      "subtitle": "The best e-mail client",
       "command": "winget install -e --id Mozilla.Thunderbird",
       "flatpakcommand": "flatpak install flathub org.mozilla.thunderbird"
   },
@@ -74,7 +81,7 @@
       "title": "Playnite",
       "subtitle": "An open source video game library manager and launcher",
       "command": "winget install -e --id Playnite.Playnite",
-      "flatpakcommand": "Not available in Flatpak"
+      "flatpakcommand": ""
   },
   {
       "icon": "fire",
@@ -117,5 +124,13 @@
       "subtitle": "LibreOffice is a powerful office suite.",
       "command": "winget install -e --id TheDocumentFoundation.LibreOffice",
       "flatpakcommand": "flatpak install flathub org.libreoffice.LibreOffice"
+  }
+  ,
+    {
+      "icon": "movie-open",
+      "title": "Stremio",
+      "subtitle": "Freedom to Stream.",
+      "command": "winget install -e --id Stremio.Stremio",
+      "flatpakcommand": "flatpak install flathub com.stremio.Stremio"
   }
 ]
