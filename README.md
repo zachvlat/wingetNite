@@ -1,55 +1,37 @@
-WingetNite
-Introduction
+# WingetNite
 
-WingetNite is a mobile application that leverages the Windows Package Manager (winget) and Flathub to simplify the installation and management of software packages on Windows and Linux systems.
-Features
+This app is built with React Native and is released under the GNU General Public License version 3.0 (GPL-3.0).
 
-    Intuitive UI: WingetNite offers a clean and user-friendly interface to enhance the user experience.
+[![Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.zachvlat.wingetnite)
 
-    Package Installation: Easily search for and install software packages using winget commands.
+## Getting Started
 
-    Toggleable Commands: Customize your command list with toggleable buttons to streamline your software management workflow.
+Follow these steps to get the app up and running on your local machine.
 
-    Logging and Sharing: Keep track of your commands, and easily share your command history with others.
+### Prerequisites
 
-Getting Started
-Prerequisites
+- Node.js: [Download and install Node.js](https://nodejs.org/)
+- React Native CLI: [Setup React Native environment](https://reactnative.dev/docs/environment-setup)
 
-    Make sure you have a Windows system with the Windows Package Manager (winget) installed.
 
-Installation
+### Installation
 
-    Clone the repository: git clone https://github.com/zachvlat/WingetNite.git
+1. Clone the repository:
 
-    Navigate to the project directory: cd WingetNite
+```bash
+git clone https://github.com/zachvlat/wingetnite.git
+cd wingetnite
+```
 
-    Install dependencies: npm install or yarn install
+2. Install dependencies:
 
-    Start the application: npm start or yarn start
+```bash
+npm install
+```
 
-    Open the app on your mobile device or emulator.
+3. Start the local environment:
 
-Usage
+```bash
+npx expo start
+```
 
-    Search for software packages using the search bar.
-
-    Toggle commands to customize your installation preferences.
-
-    Press the FAB button to log and share your command history.
-
-License
-
-This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details.
-Acknowledgments
-
-    This app is built on the React Native framework.
-    Special thanks to the React Native Paper library for UI components.
-
-Contributing
-
-Contributions are welcome! If you'd like to contribute to WingetNite, please follow the contribution guidelines.
-Support
-
-For support or bug reports, please open an issue on the GitHub repository.
-
-Make sure to create the necessary LICENSE.md and CONTRIBUTING.md files with appropriate content if they don't already exist. Additionally, customize the text based on the actual features and details of your app.
