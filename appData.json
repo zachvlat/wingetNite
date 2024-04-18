@@ -46,7 +46,7 @@
       "title": "Notepad++",
       "subtitle": "The best text-editor",
       "command": "winget install --id=Notepad++.Notepad++ -e",
-      "flatpakcommand": ""
+      "flatpakcommand": "#not available#"
   },
   {
       "icon": "chat-processing",
@@ -81,7 +81,7 @@
       "title": "Playnite",
       "subtitle": "An open source video game library manager and launcher",
       "command": "winget install -e --id Playnite.Playnite",
-      "flatpakcommand": ""
+      "flatpakcommand": "#not available#"
   },
   {
       "icon": "fire",
@@ -95,7 +95,7 @@
       "title": "Heroic Games Launcher",
       "subtitle": "Heroic is an Open Source Game Launcher.",
       "command": "winget install -e --id HeroicGamesLauncher.HeroicGamesLauncher",
-      "flatpakcommand": "Not available in Flatpak"
+      "flatpakcommand": "#not available#"
   },
   {
       "icon": "download-circle",
@@ -132,5 +132,19 @@
       "subtitle": "Freedom to Stream.",
       "command": "winget install -e --id Stremio.Stremio",
       "flatpakcommand": "flatpak install flathub com.stremio.Stremio"
+  },
+    {
+      "icon": "folder",
+      "title": "Proton Drive",
+      "subtitle": "Free secure cloud storage.",
+      "command": "winget install -e --id Proton.ProtonDrive",
+      "flatpakcommand": "#not available#"
+  },
+  {
+      "icon": "folder",
+      "title": "Discord",
+      "subtitle": "Your place to talk and hang out.",
+      "command": "winget install -e --id Discord.Discord",
+      "flatpakcommand": "flatpak install flathub com.discordapp.Discord"
   }
 ]
