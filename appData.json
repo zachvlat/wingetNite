@@ -148,10 +148,10 @@
       "flatpakcommand": "flatpak install flathub com.discordapp.Discord"
   },
   {
-    "icon": "LiveTv",
+    "icon": "mdi-view-stream",
     "title": "OBS",
     "subtitle": "Free and open source software for video capturing, recording, and live streaming.",
     "command": "winget install -e --id OBSProject.OBSStudio",
-    "flatpakcommand": "flatpak install flathub com.discordapp.Discord"
+    "flatpakcommand": "flatpak install flathub com.obsproject.Studio"
 }
 ]
