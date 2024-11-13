@@ -141,14 +141,14 @@
       "flatpakcommand": "#not available#"
   },
   {
-      "icon": "folder",
+      "icon": "discord",
       "title": "Discord",
       "subtitle": "Your place to talk and hang out.",
       "command": "winget install -e --id Discord.Discord",
       "flatpakcommand": "flatpak install flathub com.discordapp.Discord"
   },
   {
-    "icon": "mdi-view-stream",
+    "icon": "chromecast",
     "title": "OBS",
     "subtitle": "Free and open source software for video capturing, recording, and live streaming.",
     "command": "winget install -e --id OBSProject.OBSStudio",
